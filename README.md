@@ -16,3 +16,5 @@ Now here are five projects related to customer’s purpose:
 5.	uwpApplicationBase A tool uwp, used to locate CXStoreEngagementSDKFeatures  for CPPClient because by default Win32 cannot use custom WinRT component
 
 To build, select Debug|X64 in CentennnialTest solution, and associate your live Windows Store App item in CPPToUWP for registering notification by using Store Service SDK. Run it, and then can test the Notification function in Dev Center.
+
+Refer to https://blogs.windows.com/buildingapps/2017/07/06/calling-winrt-components-win32-process-via-desktop-bridge/ to get ideas of how to use customized WinRT Component with Win32 project, and improve it with VS Package Project template.
