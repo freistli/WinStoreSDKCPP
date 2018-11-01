@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+d:\repos\centennialtest\uwpfeatures\dllmain.cpp(4): warning C4447: 找到的“main”签名不带线程模型。请考虑使用“int main(Platform::Array<Platform::String^>^ args)”。
+  UWPFeatures.cpp
+d:\repos\centennialtest\uwpfeatures\uwpfeatures.cpp(30): warning C4691: “Windows::Foundation::IAsyncOperation”: 未引用的 程序集“Windows.Foundation.FoundationContract”中应使用引用的类型，但使用了当前翻译单元中定义的类型
+  d:\repos\centennialtest\uwpfeatures\uwpfeatures.cpp(30): note: 在导入类型“CXStoreEngagementSDKFeatures::__IWrapperPublicNonVirtuals ”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  d:\repos\centennialtest\uwpfeatures\uwpfeatures.cpp(30): note: 在导入类型“CXStoreEngagementSDKFeatures::Wrapper ”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  正在生成代码...
+  UWPFeatures.vcxproj -> D:\repos\CentennialTest\x64\Debug\UWPFeatures.dll

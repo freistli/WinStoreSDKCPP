@@ -1,0 +1,3 @@
+D:\repos\CentennialTest\CPPToUWP\CPPToUWP.wapproj;x64
+D:\repos\CentennialTest\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.vcxproj;x64
+D:\repos\CentennialTest\uwpApplicationBase\uwpApplicationBase.csproj;x64
