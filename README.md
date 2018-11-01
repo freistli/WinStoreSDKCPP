@@ -1,2 +1,18 @@
 # WinStoreSDKCPP
 Implement Windows Store Services SDK with CPP
+
+Suppose a general C++ project has one C++ Win32 App, one UWPFeatures dll for proxying UWP APIs, one Package project for packing Win32 App to UWP app. 
+
+Here is the project link:
+
+https://github.com/freistli/WinStoreSDKCPP
+
+Now here are five projects related to customer’s purpose:
+
+1.	CXStoreEngagementSDKFeatures  CPP WinRT component, used for registering notification by using Store Service SDK
+2.	UWPFeatures CPP UWP Feature Library, provides calls to CXStoreEngagementSDKFeatures and other standard UWP APIs. 
+3.	CPPClient  CPP Win32 Client, use LoadLibrary to call UWPFeatures functions
+4.	CPPToUWP Package Project to pack CPP Client as UWP app
+5.	uwpApplicationBase A tool uwp, used to locate CXStoreEngagementSDKFeatures  for CPPClient because by default Win32 cannot use custom WinRT component
+
+To build, select Debug|X64 in CentennnialTest solution, and associate your live Windows Store App item in CPPToUWP for registering notification by using Store Service SDK. Run it, and then can test the Notification function in Dev Center.
