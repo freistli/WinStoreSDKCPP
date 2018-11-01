@@ -1,2 +1,4 @@
-﻿  Wrapper.cpp
-  CXStoreEngagementSDKFeatures.vcxproj -> D:\repos\CentennialTest\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.dll
+﻿  pch.cpp
+  Wrapper.cpp
+    正在创建库 D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.lib 和对象 D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.exp
+  CXStoreEngagementSDKFeatures.vcxproj -> D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.dll

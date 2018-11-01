@@ -1,3 +1,5 @@
-﻿  CPPClient.cpp
-d:\repos\centennialtest\cppclient\cppclient.cpp(16): warning C4101: “appProc”: 未引用的局部变量
-  CPPClient.vcxproj -> D:\repos\CentennialTest\x64\Debug\CPPClient.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(1879,5): warning : The referenced project '..\Tasks\Tasks.vcxproj' does not exist.
+  pch.cpp
+  CPPClient.cpp
+d:\repos\winstoresdkcpp\cppclient\cppclient.cpp(16): warning C4101: “appProc”: 未引用的局部变量
+  CPPClient.vcxproj -> D:\repos\WinStoreSDKCPP\x64\Debug\CPPClient.exe

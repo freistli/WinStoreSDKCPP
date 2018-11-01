@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>30812FreistLi.StoreIAPTest</PackageIdentityName>
     <PackageIdentityPublisher>CN=BA4FE9E6-EC51-402C-A8D1-1354151C2AAF</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\repos\CentennialTest\CPPToUWP\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\repos\WinStoreSDKCPP\CPPToUWP\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>D:\repos\CentennialTest\CPPToUWP\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\repos\WinStoreSDKCPP\CPPToUWP\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>1CE738AB35556CAC97C1BE62E6EC21313B8082322E2EA477213F05C8F396A103</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>30812FreistLi.StoreIAPTest_1.1.0.0_x64__33rssfepyhexc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>30812FreistLi.StoreIAPTest_33rssfepyhexc!App</RegisteredUserModeAppID>
@@ -29,43 +29,43 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\repos\CentennialTest\CPPToUWP\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\repos\WinStoreSDKCPP\CPPToUWP\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-01T09:01:30.371</Modified>
+      <Modified>2018-11-01T09:57:56.040</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\StoreLogo.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-23T10:01:49.592</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\UWPFeatures.dll">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\UWPFeatures.dll">
       <PackagePath>UWPFeatures.dll</PackagePath>
       <Modified>2018-10-31T16:13:53.339</Modified>
     </AppxPackagedFile>
@@ -77,34 +77,18 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T14:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\CPPToUWP\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\CPPToUWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-01T09:01:26.855</Modified>
+      <Modified>2018-11-01T09:57:55.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\Tasks.dll">
-      <PackagePath>Tasks.dll</PackagePath>
-      <Modified>2018-10-31T14:54:57.545</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\Tasks\Tasks.winmd">
-      <PackagePath>Tasks.winmd</PackagePath>
-      <Modified>2018-10-31T13:33:01.870</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\Tasks\Tasks.pri">
-      <PackagePath>CPPClient\Tasks.pri</PackagePath>
-      <Modified>2018-10-31T13:33:02.678</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\UWPFeatures.dll">
-      <PackagePath>CPPClient\UWPFeatures.dll</PackagePath>
-      <Modified>2018-10-31T16:13:53.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\CPPClient.exe">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\x64\Debug\CPPClient.exe">
       <PackagePath>CPPClient\CPPClient.exe</PackagePath>
-      <Modified>2018-11-01T07:51:28.110</Modified>
+      <Modified>2018-11-01T09:57:40.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\bin\x64\Debug\uwpApplicationBase.exe">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\uwpApplicationBase.exe">
       <PackagePath>entrypoint\uwpApplicationBase.exe</PackagePath>
-      <Modified>2018-11-01T09:01:20.128</Modified>
+      <Modified>2018-11-01T09:57:48.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\freistli\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -518,59 +502,59 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T15:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.dll">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.dll">
       <PackagePath>CXStoreEngagementSDKFeatures.dll</PackagePath>
-      <Modified>2018-10-31T13:33:00.951</Modified>
+      <Modified>2018-11-01T09:57:44.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.winmd">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.winmd">
       <PackagePath>CXStoreEngagementSDKFeatures.winmd</PackagePath>
-      <Modified>2018-10-31T10:08:17.929</Modified>
+      <Modified>2018-11-01T09:57:43.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\smalltile-sdk.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\smalltile-sdk.png">
       <PackagePath>Assets\smalltile-sdk.png</PackagePath>
       <Modified>2018-09-21T08:51:43.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-03-12T00:59:40.219</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2018-03-12T00:59:40.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <Modified>2018-03-12T00:59:40.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <Modified>2018-03-12T00:59:40.227</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <Modified>2018-03-12T00:59:40.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2018-03-12T00:59:40.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2018-03-12T00:59:40.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-12T00:59:40.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\bin\x64\Debug\uwpApplicationBase.xr.xml">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\uwpApplicationBase.xr.xml">
       <PackagePath>uwpApplicationBase.xr.xml</PackagePath>
       <Modified>2018-09-21T08:04:36.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2018-10-31T13:39:04.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2018-10-31T13:39:04.535</Modified>
     </AppxPackagedFile>
@@ -582,9 +566,9 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T14:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\repos\CentennialTest\uwpApplicationBase\bin\x64\Debug\Core\uwpApplicationBase.exe">
+    <AppxPackagedFile Include="D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\Core\uwpApplicationBase.exe">
       <PackagePath>uwpApplicationBase.exe</PackagePath>
-      <Modified>2018-11-01T09:01:25.166</Modified>
+      <Modified>2018-11-01T09:57:53.706</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
