@@ -1,6 +1,9 @@
 # WinStoreSDKCPP
 Implement Windows Store Services SDK with CPP
 
+Prerequisite [Install store services sdk]
+https://docs.microsoft.com/en-us/windows/uwp/monetize/microsoft-store-services-sdk
+
 Suppose a general C++ project already has one C++ Win32 App, one UWPFeatures dll for proxying UWP APIs, one Package project for packing Win32 App to UWP app. 
 
 Here is the project link:
