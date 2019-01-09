@@ -1,3 +1,4 @@
+D:\repos\WinStoreSDKCPP\CPPToUWP\UWPFeatures.pdb
 D:\repos\WinStoreSDKCPP\CPPToUWP\Images\LockScreenLogo.scale-200.png
 D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Square150x150Logo.scale-200.png
 D:\repos\WinStoreSDKCPP\CPPToUWP\Images\Square44x44Logo.scale-200.png
@@ -8,6 +9,7 @@ D:\repos\WinStoreSDKCPP\CPPToUWP\UWPFeatures.dll
 C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17134.0\\redist\Debug\X64\ucrtbased.dll
 D:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd
 D:\repos\WinStoreSDKCPP\CPPToUWP\bin\x64\Debug\resources.pri
+D:\repos\WinStoreSDKCPP\x64\Debug\UWPFeatures.dll
 D:\repos\WinStoreSDKCPP\x64\Debug\CPPClient.exe
 D:\repos\WinStoreSDKCPP\x64\Debug\CPPClient.pdb
 D:\repos\WinStoreSDKCPP\uwpApplicationBase\bin\x64\Debug\uwpApplicationBase.exe

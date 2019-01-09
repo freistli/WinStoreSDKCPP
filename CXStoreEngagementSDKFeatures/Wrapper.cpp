@@ -6,23 +6,52 @@ using namespace CXStoreEngagementSDKFeatures;
 Wrapper::Wrapper()
 {
 
-} 
+}
 Windows::Foundation::IAsyncOperation<String^>^ Wrapper::RegisterService()
 {
- 
+
+	StoreServicesEngagementManager^ engagementManager = StoreServicesEngagementManager::GetDefault();
+
+	return create_async([engagementManager] {
+
+		OutputDebugString(L"*****Enter RegisterService");
+
+		auto Result = create_task(engagementManager->RegisterNotificationChannelAsync());
+		//Result.wait();
+		Result.then([&](StoreServicesNotificationChannelRegistrationResult^ result) {
+
+			OutputDebugString(L"*****End RegisterService");
+			String ^ x = ref new String(result->ErrorCode.ToString()->Data());
+			OutputDebugString((L"*****" + x + L"*****\n")->Data());
+			x = ref new String(result->ErrorMessage->Data());
+			OutputDebugString((L"*****" + x + L"*****\n")->Data());
+			x = ref new String(result->NotificationChannelUri->Data());
+			OutputDebugString((L"*****" + x + L"*****\n")->Data());
+		});
+
+		return ref new String(L"Completed in CXStoreEngagementSDKFeatures");
+	});
+
+
+}
+//for test only
+void Wrapper::RegX()
+{
+	OutputDebugString(L"*****start****\n");
+	String^ x = L"task test";
 	StoreServicesEngagementManager^ engagementManager = StoreServicesEngagementManager::GetDefault();
 	
-	return create_async([&] {return create_task(engagementManager->RegisterNotificationChannelAsync()).then([&](StoreServicesNotificationChannelRegistrationResult^ result) {
-		String ^ x = ref new String(result->ErrorCode.ToString()->Data());
-		OutputDebugString((L"*****" + x + L"*****\n")->Data());
-		x = ref new String(result->ErrorMessage->Data());
-		OutputDebugString((L"*****" + x + L"*****\n")->Data());
-		x = ref new String(result->NotificationChannelUri->Data());
-		OutputDebugString((L"*****" + x + L"*****\n")->Data());
-		return x;
-	}); });
+	create_task([&] { 
+		
+		OutputDebugString(L"*****New Task 1 ****\n");
+		return ;
 		 
-	
+		 }).then([&]() {
+
+		OutputDebugString(L"*****Task 1 Then****\n");
+		
+	});
+	 
 }
 Windows::Foundation::IAsyncOperation<bool>^ Wrapper::UnRegisterService()
 {	

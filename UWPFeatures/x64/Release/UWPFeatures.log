@@ -1,14 +1,14 @@
 ﻿  stdafx.cpp
 c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1433): error C3646: “T”: 未知重写说明符
-  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1466): note: 参见对正在编译的 类 模板 实例化 "Platform::Details::CustomBox<T>" 的引用
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1434): error C3646: “Value”: 未知重写说明符
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1448): error C2433: “Platform::Details::CustomBox<T>::property”: 不允许在数据声明中使用“virtual”
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1448): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1451): error C2988: 不可识别的模板声明/定义
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1451): error C2143: 语法错误: 缺少“;”(在“<”的前面)
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1451): error C2238: 意外的标记位于“;”之前
-c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.15.26726\include\vccorlib.h(1451): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
-  “C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe”中的内部编译器错误
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1433): error C3646: “T”: 未知重写说明符
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1466): note: 参见对正在编译的 类 模板 实例化 "Platform::Details::CustomBox<T>" 的引用
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1434): error C3646: “Value”: 未知重写说明符
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1448): error C2433: “Platform::Details::CustomBox<T>::property”: 不允许在数据声明中使用“virtual”
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1448): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1451): error C2988: 不可识别的模板声明/定义
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1451): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1451): error C2238: 意外的标记位于“;”之前
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vccorlib.h(1451): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+  “C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe”中的内部编译器错误
     请选择 Visual C++ 
   “帮助”菜单上的“技术支持”命令，或打开技术支持帮助文件来获得详细信息

@@ -3,8 +3,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
     <RemoteDebugEnabled>False</RemoteDebugEnabled>
+    <BackgroundTaskDebugEngines>DesktopClrAndNative</BackgroundTaskDebugEngines>
   </PropertyGroup>
   <PropertyGroup>
-    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
   </PropertyGroup>
 </Project>

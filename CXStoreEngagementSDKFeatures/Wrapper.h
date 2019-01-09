@@ -11,6 +11,7 @@ namespace CXStoreEngagementSDKFeatures
 		Windows::Foundation::IAsyncOperation<String^>^ RegisterService();
 		Windows::Foundation::IAsyncOperation<bool>^ UnRegisterService();
 		Windows::Foundation::IAsyncOperation<String^>^Status();
+		void RegX();
 		String^ test();
     };
 }
