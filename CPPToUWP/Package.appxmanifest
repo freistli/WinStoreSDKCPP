@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:winrt="http://schemas.microsoft.com/appx/2010/manifest" IgnorableNamespaces="uap mp rescap winrt">
-  <Identity Name="30812FreistLi.StoreIAPTest" Publisher="CN=BA4FE9E6-EC51-402C-A8D1-1354151C2AAF" Version="1.1.14.0" />
+  <Identity Name="30812FreistLi.StoreIAPTest" Publisher="CN=BA4FE9E6-EC51-402C-A8D1-1354151C2AAF" Version="1.1.21.0" />
   <Properties>
     <DisplayName>StoreIAPTest</DisplayName>
     <PublisherDisplayName>Freist Li</PublisherDisplayName>

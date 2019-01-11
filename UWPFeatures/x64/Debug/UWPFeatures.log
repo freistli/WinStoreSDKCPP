@@ -1,7 +1,17 @@
-﻿  UWPFeatures.cpp
+﻿  stdafx.cpp
+d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd : warning C4945: “__IWrapperPublicNonVirtuals”: 无法从“d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd”导入符号: 因为“CXStoreEngagementSDKFeatures::__IWrapperPublicNonVirtuals”已从另一个程序集“CXStoreEngagementSDKFeatures”导入
+  d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd: note: 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+  d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd: note: 在导入类型“CXStoreEngagementSDKFeatures.__IWrapperPublicNonVirtuals”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd : warning C4945: “Wrapper”: 无法从“d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd”导入符号: 因为“CXStoreEngagementSDKFeatures::Wrapper”已从另一个程序集“CXStoreEngagementSDKFeatures”导入
+  d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd: note: 使用最先看到的类型；重新排列导入程序集的顺序以使用当前类型
+  d:\repos\winstoresdkcpp\x64\debug\cxstoreengagementsdkfeatures\cxstoreengagementsdkfeatures.winmd: note: 在导入类型“CXStoreEngagementSDKFeatures.Wrapper”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  dllmain.cpp
+d:\repos\winstoresdkcpp\uwpfeatures\dllmain.cpp(4): warning C4447: 找到的“main”签名不带线程模型。请考虑使用“int main(Platform::Array<Platform::String^>^ args)”。
+  UWPFeatures.cpp
 d:\repos\winstoresdkcpp\uwpfeatures\uwpfeatures.cpp(30): warning C4691: “Windows::Foundation::IAsyncOperation”: 未引用的 程序集“Windows.Foundation.FoundationContract”中应使用引用的类型，但使用了当前翻译单元中定义的类型
   d:\repos\winstoresdkcpp\uwpfeatures\uwpfeatures.cpp(30): note: 在导入类型“CXStoreEngagementSDKFeatures::__IWrapperPublicNonVirtuals ”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
   d:\repos\winstoresdkcpp\uwpfeatures\uwpfeatures.cpp(30): note: 在导入类型“CXStoreEngagementSDKFeatures::Wrapper ”(从程序集“CXStoreEngagementSDKFeatures, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null”中导入)时发生此诊断。
+  正在生成代码...
     正在创建库 D:\repos\WinStoreSDKCPP\x64\Debug\UWPFeatures.lib 和对象 D:\repos\WinStoreSDKCPP\x64\Debug\UWPFeatures.exp
   UWPFeatures.vcxproj -> D:\repos\WinStoreSDKCPP\x64\Debug\UWPFeatures.dll
   D:\repos\WinStoreSDKCPP\UWPFeatures\..\X64\Debug\UWPFeatures.dll

@@ -28,6 +28,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Debug\UWPFeatures.dll" />
+    <None Include="..\x64\Release\UWPFeatures.dll" />
   </ItemGroup>
 </Project>

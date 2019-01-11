@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(VC_ReferencesPath_x64);D:\Windows Kits\10\UnionMetadata</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -93,6 +94,7 @@
       <ConformanceMode>false</ConformanceMode>
       <AdditionalUsingDirectories>D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures;D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;D:\Windows Kits\10\UnionMetadata;D:\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\2.0.0.0;D:\Windows Kits\10\References\Windows.Foundation.FoundationContract\2.0.0.0;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <CompileAsWinRT>true</CompileAsWinRT>
+      <SupportJustMyCode>false</SupportJustMyCode>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -100,8 +102,7 @@
       <AdditionalDependencies>D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy $(LocalDebuggerWorkingDirectory)..\X64\Debug\uwpfeatures.dll $(LocalDebuggerWorkingDirectory)..\CPPToUWP\uwpfeatures.dll /y
-xcopy $(LocalDebuggerWorkingDirectory)..\X64\Debug\uwpfeatures.pdb $(LocalDebuggerWorkingDirectory)..\CPPToUWP\uwpfeatures.pdb /y</Command>
+      <Command>xcopy $(LocalDebuggerWorkingDirectory)..\$(IntDir)uwpfeatures.dll $(LocalDebuggerWorkingDirectory)..\CPPToUWP\uwpfeatures.dll /y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -147,8 +148,8 @@ xcopy $(LocalDebuggerWorkingDirectory)..\X64\Debug\uwpfeatures.pdb $(LocalDebugg
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;UWPFEATURES_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <AdditionalUsingDirectories>D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures;D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;D:\Windows Kits\10\UnionMetadata;D:\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\2.0.0.0;D:\Windows Kits\10\References\Windows.Foundation.FoundationContract\2.0.0.0;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalUsingDirectories>D:\repos\WinStoreSDKCPP\x64\Release\CXStoreEngagementSDKFeatures;D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcpackages;D:\Windows Kits\10\UnionMetadata;D:\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\2.0.0.0;D:\Windows Kits\10\References\Windows.Foundation.FoundationContract\2.0.0.0;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
       <CompileAsWinRT>true</CompileAsWinRT>
     </ClCompile>
     <Link>
@@ -156,8 +157,11 @@ xcopy $(LocalDebuggerWorkingDirectory)..\X64\Debug\uwpfeatures.pdb $(LocalDebugg
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>D:\repos\WinStoreSDKCPP\x64\Debug\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>D:\repos\WinStoreSDKCPP\x64\Release\CXStoreEngagementSDKFeatures\CXStoreEngagementSDKFeatures.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(LocalDebuggerWorkingDirectory)..\$(IntDir)uwpfeatures.dll $(LocalDebuggerWorkingDirectory)..\CPPToUWP\uwpfeatures.dll /y</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />

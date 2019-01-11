@@ -163,9 +163,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Debug\UWPFeatures.dll">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
+    <None Include="..\x64\Release\UWPFeatures.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
