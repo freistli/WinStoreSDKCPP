@@ -1,6 +1,9 @@
 # WinStoreSDKCPP
 Implement Windows Store Services SDK with CPP
 
+If you just want to verify the service notification function, suggest to follow step 1, 2, 3, in CSharp project to quickly see results:
+[Configure your app for targeted push notifications](https://docs.microsoft.com/en-us/windows/uwp/monetize/configure-your-app-to-receive-dev-center-notifications)
+
 Prerequisite
 
 [Install store services sdk](https://docs.microsoft.com/en-us/windows/uwp/monetize/microsoft-store-services-sdk)
